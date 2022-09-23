@@ -7,3 +7,14 @@ html, body, *{
 .header{
     text-align: center;
 }
+#sign{
+    height: 300px;
+    align-content: center;
+}
+#wave{
+    position: absolute;
+    align-content: center;
+    width: 1920px;
+    left: 0%;
+
+}
