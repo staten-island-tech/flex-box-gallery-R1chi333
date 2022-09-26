@@ -4,17 +4,27 @@ html, body, *{
     box-sizing: border-box;
     font-size: 62.5%;
 }
-.header{
+body{
+    background-color: aliceblue;
+}
+#top{
+    background-color: #D8B27B;
+}
+.header2{
     text-align: center;
 }
 #sign{
-    height: 300px;
-    align-content: center;
+    height: 25%;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
 }
-#wave{
-    position: absolute;
-    align-content: center;
-    width: 1920px;
-    left: 0%;
-
+#back{
+    background-color: #d5e3f0;
+    height: 300px;
+    position: fixed;
+    top: 2%;
+    left: 0;
+    z-index: 0;
 }
