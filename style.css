@@ -5,26 +5,28 @@ html, body, *{
     font-size: 62.5%;
 }
 body{
-    background-color: aliceblue;
-}
-#top{
-    background-color: #D8B27B;
+    background-color: #7ac8f0;
 }
 .header2{
     text-align: center;
 }
 #sign{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 2;
     height: 25%;
-    position: relative;
-    top: 0;
-    left: 0;
+}
+#sunny{
     z-index: 1;
+    position: absolute;
+    top: 15%;
+    width: 100%;
 }
 #back{
-    background-color: #d5e3f0;
-    height: 300px;
-    position: fixed;
-    top: 2%;
-    left: 0;
+    background-color: antiquewhite;
     z-index: 0;
+    position: absolute;
+    top: 0%;
+    height: 25%;
 }
