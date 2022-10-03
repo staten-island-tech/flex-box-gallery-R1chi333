@@ -24,7 +24,23 @@ body{
 }
 #back{
     background-color: aliceblue;
-    z-index: 0;
-    position: fixed;
+    position: absolute;
     top: 0%;
+}
+.posts{
+    margin-top: 20px;
+    font-size: 8rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.post1{
+    text-align: center;
+    color: #443742;
+    border-radius: 25px;
+    width: 30vw;
+    border: 5px solid aliceblue;
+}
+.header{
+    height: 40vh;
+    width: 100vw;
 }
