@@ -26,9 +26,11 @@ body{
     background-color: aliceblue;
     position: absolute;
     top: 0%;
+    height: 40vh;
+    width: 100vw;
 }
 .posts{
-    margin-top: 20px;
+    margin-top: 40px;
     font-size: 8rem;
     display: flex;
     justify-content: space-evenly;
@@ -39,8 +41,5 @@ body{
     border-radius: 25px;
     width: 30vw;
     border: 5px solid aliceblue;
-}
-.header{
-    height: 40vh;
-    width: 100vw;
+    box-shadow: 5px 10px;
 }
