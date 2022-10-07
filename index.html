@@ -12,6 +12,26 @@ https://coolors.co/5d2a42-fb6376-fcb1a6-ffdccc-fff9ec -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&family=Kalam&display=swap" rel="stylesheet">
 <body>
+    <div class="song">
+        <img id="play" src="media/play.png" alt="playbutton">
+        <img id="stop" src="media/stop.png" alt="stopbutton">
+    </div>
+    <audio loop id="song2">
+        <source src="songs/Y2Mate.is - Binks' Sake (from One Piece) Violin & Piano cover-T40dUb8Tkcw-160k-1655215048860.mp3" type="audio/mp3">
+    </audio>
+    <script>
+        var song2 = document.getElementById("song2");
+        var play = document.getElementById("play");
+        var stop = document.getElementById("stop");
+
+        play.onclick = function(){
+            song2.play();
+        }
+
+        stop.onclick = function(){
+            song2.pause();
+        }
+    </script>
     <div class="header">
         <h1 id="sign">ONE PIECE</h1>
         <img id="sunny" src="media/sunny.png" alt="sunny">
@@ -20,6 +40,7 @@ https://coolors.co/5d2a42-fb6376-fcb1a6-ffdccc-fff9ec -->
             <img id="cloud-2" src="media/cloud2.png" alt="cloud2">
         </div>
     </div>
+
     <div>
         <h2 id="divider">romance-dawn | orange-town | syrup-village | baratie | arlong-park | lougetown | reverse-mountain</h2>
     </div>
