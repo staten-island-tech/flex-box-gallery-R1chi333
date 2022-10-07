@@ -3,18 +3,44 @@ html, body, *{
     margin: 0px;
     box-sizing: border-box;
     font-size: 62.5%;
+    overflow-x: hidden;
 }
 body{
     background-color: #7ac8f0;
+    font-family: 'Kalam', cursive;
 }
 @font-face{
     src: url(fonts/Onepiece-Regular.ttf);
     font-family: onepiece;
 }
 .clouds{
-    top: 0;
+    z-index: -0;
+}
+#cloud-1{
+    top: 1%;
     position: absolute;
-    z-index: 100;
+    height: 30vh;
+    right: -25%;
+    animation: glide1 14s linear infinite;
+    
+}
+@keyframes glide1 {
+    100%{
+        transform: translate(-120vw,0);opacity: 1;
+    }
+}
+#cloud-2{
+    position: absolute;
+    right: -20%;
+    height: 25vh;
+    top: 45%;
+    animation: glide2 16s linear infinite;
+    animation-delay: 5s;
+}
+@keyframes glide2 {
+    100%{
+        transform: translate(-120vw,0);opacity: 1;
+    }
 }
 #divider{
     margin: 60px;
@@ -22,7 +48,11 @@ body{
     font-size: 2vh;
     color: #3685bd;
     background-color: #7ac8f0;
-    word-spacing: 60px;
+    word-spacing: 40px;
+    font-family: 'IBM Plex Mono', monospace;
+}
+.header{
+    background-color: aliceblue;
 }
 #sign{
     padding-bottom: 18%;
@@ -30,9 +60,9 @@ body{
     text-align: center;
     font-size: 20vh;
     font-family: onepiece;
-    background-color: white;
     color: #3685bd;
     text-shadow: 5px 5px #c1e5ff;
+    z-index: 3;
 }
 #sunny{
     z-index: 1;
@@ -42,6 +72,7 @@ body{
 }
 
 .postsection{
+
     margin-top: 25px;
     font-size: 50px;
     display: flex;
