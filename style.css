@@ -54,6 +54,7 @@ body{
 }
 .header{
     background-color: aliceblue;
+    position: relative;
 }
 #sign{
     padding-bottom: 18%;
@@ -78,7 +79,6 @@ body{
     height: 11%;
     left: 3%;
 }
-
 #stop{
     position: absolute;
     top: 79%;
@@ -86,15 +86,11 @@ body{
     height: 9%;
     left: 10%;
 }
-#play:hover{
-    height: 13%;
-}
-#stop:hover{
-    height: 11%;
-}
+
 .postsection{
+
     margin-top: 25px;
-    font-size: 5rem;
+    font-size: 50px;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -103,24 +99,17 @@ body{
     text-align: center;
     color: #243a46;
     border-radius: 25px;
-    background-color:aliceblue;
+    background-color:#EDF4ED ;
     width: 25vw;
     border: 5px solid #3685bd;
-    padding: 30px;
+    padding: 33px;
     margin: 30px;
     box-shadow: 10px 10px #b1d9f8;
 }
-.posts:hover{
-    scale: 110%;
-}
-#mangapanel{
+#placeholder{
     width: 90%;
     margin-top: 10px;
 }
-.posts:active{
-    transform: rotate(90%);
-}
-
 #bottomtext{
     font-size: 2vh;
     text-align: center;
