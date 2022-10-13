@@ -93,7 +93,6 @@ body{
     height: 11%;
 }
 .postsection{
-
     margin-top: 25px;
     font-size: 5rem;
     display: flex;
@@ -111,10 +110,17 @@ body{
     margin: 30px;
     box-shadow: 10px 10px #b1d9f8;
 }
+.posts:hover{
+    scale: 110%;
+}
 #mangapanel{
     width: 90%;
     margin-top: 10px;
 }
+.posts:active{
+    transform: rotate(90%);
+}
+
 #bottomtext{
     font-size: 2vh;
     text-align: center;
