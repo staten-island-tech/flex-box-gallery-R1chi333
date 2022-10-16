@@ -169,14 +169,38 @@ li{
 @media only screen and (max-width: 500px) {
     .postsection{
         flex-direction: column;
-        margin-top: -5vw;
     }
     .posts{
-        width: 80vw;
-        height:42vh;
-        margin-left: 10px;
+        width: 77vw;
+        height:85vw;
+        margin-left: 11.5vw;
     }
     #sign{
         font-size: 18vw;
+        padding-bottom: 5%;
+        padding-top: 10%;
+    }
+    #divider{
+        opacity: 0 ;
+        margin: 0vw;
+    }
+    #sunny{
+        z-index: 1;
+        position: relative;
+        width: 100%;
+        margin-top: -11%;
+    }
+    #cloud-2{
+        opacity: 0;
+    }
+    #play{
+        top: 30vw;
+        width: 7vw;
+    }
+    
+    #stop{
+        top: 31vw;
+        width: 6vw;
+        left: 13vw;
     }
 }
