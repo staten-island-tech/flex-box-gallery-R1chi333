@@ -50,7 +50,7 @@ button{
     }
 }
 #divider{
-    margin: 60px;
+    margin: 2vw;
     text-align: center;
     font-size: 1vw;
     color: #3685bd;
@@ -75,7 +75,7 @@ button{
     z-index: 1;
     position: relative;
     width: 100%;
-    margin-top: -16%;
+    margin-top: -15%;
 }
 #play{
     position: absolute;
@@ -99,14 +99,14 @@ button{
     width: 5vw;
 }
 .postsection{
-    margin-top: 25px;
+    margin-top: -5vw;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
 .postsection:hover .posts:not(:hover){
     opacity: 50%;
-    transform: scale(.9);
+    transform: scale(.9vw);
 }
 .posts{
     text-align: center;
@@ -125,6 +125,7 @@ button{
 }
 .posts:hover{
     overflow-y: visible;
+    transform: scale(105%);
 }
 
 #mangapanel{
@@ -173,5 +174,8 @@ li{
     .posts{
         width: 80vw;
         height:42vh;
+    }
+    #sign{
+        font-size: 18vw;
     }
 }
