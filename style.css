@@ -148,8 +148,8 @@ h3{
     font-size: 2vh;
     text-align: center;
     color: #343C51;
-    margin-right: 20%;
-    margin-left: 20%;
+    margin-right: 10vw;
+    margin-left: 10vw;
     padding: 25px;
     padding-bottom: 35px;
 }
@@ -159,7 +159,7 @@ h3{
     color: #343C51;
     margin-right: 20%;
     margin-left: 20%;
-    margin-top: 2%;
+    margin-top: 2vw;
     margin-bottom: -1%;
 }
 #caption{
@@ -211,11 +211,10 @@ li{
         width: 6vw;
         left: 13vw;
     }
-    #bottomtext{
-        margin-right: 5vw;
-        margin-left: 5vw;
-    }
     #caption{
         margin-top: 3.5vw;
+    }
+    #bottomtextheader{
+        margin-top: 5vw;
     }
 }
