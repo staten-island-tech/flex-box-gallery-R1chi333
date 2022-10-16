@@ -104,6 +104,10 @@ button{
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
+.postsection:hover .posts:not(:hover){
+    opacity: 50%;
+    transform: scale(.9);
+}
 .posts{
     text-align: center;
     color: #243a46;
