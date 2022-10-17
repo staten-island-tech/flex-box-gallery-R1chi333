@@ -108,6 +108,8 @@ h3{
 }
 .postsection:hover .posts:not(:hover){
     opacity: 50%;
+    filter: blur(5px);
+    transform: rotate(1.5deg);
 }
 .posts{
     text-align: center;
