@@ -130,7 +130,7 @@ h3{
     transform: scale(110%);
 }
 
-#mangapanel{
+.mangapanel{
     width: 90%;
     margin-top: -90%;
 }
@@ -138,7 +138,7 @@ h3{
     width: 90%;
     margin-top: 10px;
 }
-#mangapanel:hover {
+.mangapanel:hover {
     opacity: 0%;
     transition: opacity .5s;
 }
@@ -161,7 +161,7 @@ h3{
     margin-top: 2vw;
     margin-bottom: -1%;
 }
-#caption{
+.caption{
     margin-top: 1vw;
     font-size: 50%;
 }
@@ -210,7 +210,7 @@ li{
         width: 6vw;
         left: 13vw;
     }
-    #caption{
+    .caption{
         margin-top: 3.5vw;
     }
     #bottomtextheader{
